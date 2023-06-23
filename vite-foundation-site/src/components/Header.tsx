@@ -3,7 +3,7 @@ import logo from "../assets/logo.jpeg"
 const Header = () => {
     
     return(
-            <img src={logo} className="h-25 w-40"></img>
+            <img src={logo} className="h-20 w-28"></img>
     )
 }
 
