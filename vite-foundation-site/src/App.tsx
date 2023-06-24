@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import Main from './components/Main'
+import Story from './components/Story'
 
 const App = () => {
   return(
@@ -11,7 +12,7 @@ const App = () => {
         <Main />
       </main>
       <section>
-        
+        <Story />
       </section>
     </>
   )  
