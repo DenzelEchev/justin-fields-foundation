@@ -11,7 +11,7 @@ const App = () => {
         </header>
         <Main />
       </main>
-      <section>
+      <section className='flex'>
         <Story />
       </section>
     </>
