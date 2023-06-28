@@ -11,13 +11,13 @@ const App = () => {
         <header className="sticky top-0 flex justify-center p-2 bg-white ">
           <Header />
         </header>
-      <main className="flex flex-col h-full bg-gradient-to-r from-cyan-500 to-blue-500">
+      <main className="flex flex-col h-screen bg-gradient-to-r from-cyan-500 to-blue-500">
         <Main />
       </main>
-      <section className='flex xs:flex-col xs:p-8'>
+      <section className='flex flex-col p-8'>
         <Story />
       </section>
-      <section className="flex flex-col content-center py-6 bg-gradient-to-r from-indigo-500 to-sky-500">
+      <section className="flex flex-col content-center px-8 py-20 bg-gradient-to-r from-indigo-500 to-sky-500">
         <Donations />
         <DButton />
       </section>
