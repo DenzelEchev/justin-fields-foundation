@@ -5,7 +5,7 @@ const Footer = () => {
         <>
             <div className="w-1/2 py-4 border-t-2">
                 <img src={logo} alt="" className="h-20 w-28 "/>
-                <p className="text-sm lg:text-md">a tax-exempt, 501 (c)3 organization under the IRS. EIN 46-3915852</p>
+                <p className="text-sm lg:text-md">This is a tax-exempt, 501 (c)3 organization under the IRS. EIN 46-3915852</p>
             </div>
             <div className="w-1/2 py-4 border-t-2 text-end">
                 <p className="text-sm lg:text-">Justin Fields Foundation</p>
