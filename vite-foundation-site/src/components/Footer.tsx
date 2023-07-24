@@ -1,11 +1,11 @@
 const Footer = () => {
     return(
         <>
-            <div className="py-4 text-center lg:border-t-2">
+            <div className="py-4 text-center">
                 <p className="text-sm lg:text-md">Disclaimer Statement:
 The Justin Fields Foundation is a Delaware limited liability corporation operating through a fiscal sponsorship with Players Philanthropy Fund, a Maryland charitable trust recognized by IRS as a tax-exempt public charity under Section 501(c)(3) of the Internal Revenue Code (Federal Tax ID: 27-6601178). Contributions to The Justin Fields Foundation qualify as tax-deductible to the fullest extent of the law.</p>
             </div>
-            <div className="py-4 text-center lg:border-t-2">
+            <div className="py-4 text-center">
                 
                 <p className="text-sm lg:text-">The Justin Fields Foundation</p>
                 <p className="text-sm lg:text- ">1720 Mars Hills Road</p>

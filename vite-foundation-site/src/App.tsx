@@ -27,12 +27,12 @@ const App = () => {
       </section>
 
       <section className="flex flex-col content-center px-8 py-24 bg-gradient-to-r from-indigo-500 to-sky-500">
-          <h2 className="text-xl font-bold text-center text-white py-4a lg:text-2xl">Contributing towards our Future</h2>
+          <h2 className="text-2xl font-bold text-center text-white py-4a lg:text-2xl">Contributing towards our Future</h2>
           <p className="px-4 py-4 text-center text-white lg:text-xl"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laudantium libero tempora dolore, sit ad fugit corporis distinctio voluptas eveniet.</p>
           <Button bName={ "Donate" }/>
       </section>
       
-      <footer className="flex-col items-center p-2 py-2">
+      <footer className="flex-col items-center p-2 py-2 lg:flex-row lg:justify-center">
         <Footer />
       </footer>
     </>
