@@ -1,18 +1,16 @@
-import logo from "../assets/logo.jpeg"
-
 const Footer = () => {
     return(
         <>
-            <div className="w-1/2 py-4 border-t-2">
-                <img src={logo} alt="" className="h-20 w-28 "/>
-                <p className="text-sm lg:text-md">This is a tax-exempt, 501 (c)3 organization under the IRS. EIN 46-3915852</p>
+            <div className="py-4 text-center lg:border-t-2">
+                <p className="text-sm lg:text-md">Disclaimer Statement:
+The Justin Fields Foundation is a Delaware limited liability corporation operating through a fiscal sponsorship with Players Philanthropy Fund, a Maryland charitable trust recognized by IRS as a tax-exempt public charity under Section 501(c)(3) of the Internal Revenue Code (Federal Tax ID: 27-6601178). Contributions to The Justin Fields Foundation qualify as tax-deductible to the fullest extent of the law.</p>
             </div>
-            <div className="w-1/2 py-4 border-t-2 text-end">
-                <p className="text-sm lg:text-">Justin Fields Foundation</p>
-                <p className="text-sm lg:text- ">888-888-8888</p>
-                <p className="text-sm lg:text- ">contact@contactmail.com</p>
-                <p className="text-sm lg:text-">123 Candy Cane Lane</p>
-                <p className="text-sm lg:text-">North Pole, NP</p>
+            <div className="py-4 text-center lg:border-t-2">
+                
+                <p className="text-sm lg:text-">The Justin Fields Foundation</p>
+                <p className="text-sm lg:text- ">1720 Mars Hills Road</p>
+                <p className="text-sm lg:text-">Suite 124-206</p>
+                <p className="text-sm lg:text-">Acworth, GA 30101</p>
             </div>
         </>
     )
