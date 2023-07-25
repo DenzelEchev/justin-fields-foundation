@@ -11,8 +11,8 @@ const App = () => {
       </header>
 
       <main className="flex flex-col h-screen bg-gradient-to-r from-cyan-500 to-blue-500">
-          <h1 className="mt-64 text-4xl text-center text-white lg:text-7xl">Here for our Youth</h1>
-          <p className="self-center w-3/4 text-center text-white text-md lg:text-2xl lg:mt-8 pb-44">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste et deserunt minima magni illum ex, omnis maxime aspernatur nulla exercitationem?</p>
+          <h1 className="mt-64 text-4xl text-center text-white lg:text-7xl">Here for our Community</h1>
+          <p className="self-center w-3/4 text-center text-white text-md lg:text-2xl lg:mt-8 pb-44">The Justin Fields Foundation is dedicated to strengthening communities through focused grantmaking and strategic partnerships in the areas of youth empowerment, scholastic achievement, health, wellness and leadership development.</p>
           <Button bName={ "About Us" }/>
       </main>
 
@@ -22,7 +22,7 @@ const App = () => {
             <img src={logo} alt="" />
         </div>
         <div className="py-10 text-center text-l lg:text-2xl lg:w-2/3 lg:mt-12">
-            <p>The Justin Fields Foundation is dedicated to strengthening communities through focused grantmaking and strategic partnerships in the areas of youth empowerment, scholastic achievement, health, wellness and leadership development.</p>
+            <p>The Justin Fields Foundation, established with a profound commitment to making a positive impact, is a beacon of hope and progress for communities in need. With a clear vision for transformation, the foundation channels its efforts towards fostering a brighter future through a combination of strategic grantmaking and impactful partnerships.</p>
         </div>
       </section>
 
