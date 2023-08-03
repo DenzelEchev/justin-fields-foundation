@@ -1,6 +1,22 @@
-const Button = ({bName}:{bName: string}) => {
+import { FC } from "react"
+type ButtonProps = {
+    bName: string;
+    bLink: string;
+    bUrl: string;
+}
+const Button: FC<ButtonProps> = ({ bName, bLink, bUrl }) => {
+    if (bUrl.trim() === "") {
+        return (
+            <a href={bLink} className="flex justify-center w-1/4 text-white duration-300 border-2 border-white border-solid rounded hover:bg-white hover:text-black hover:ease-in">
+                <button className="text-center"> {bName} </button>
+            </a>
+        );
+    }
+
     return (
-        <button className="self-center w-1/5 text-white duration-300 border-2 border-white border-solid rounded hover:bg-white hover:text-black hover:ease-in"> { bName } </button>
+        <a target="_blank" href={bUrl} className="flex justify-center w-1/4 text-white duration-300 border-2 border-white border-solid rounded hover:bg-white hover:text-black hover:ease-in">
+            <button className="text-center"> {bName} </button>
+        </a>
     )
 }
 
