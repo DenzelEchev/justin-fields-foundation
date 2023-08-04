@@ -1,7 +1,5 @@
-'use client'
 import { FC } from "react"
 import { Navbar } from "flowbite-react"
-import logo from "../assets/logo.jpeg"
 
 const Header: FC = () => {
 
@@ -19,32 +17,28 @@ const Header: FC = () => {
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                     <Navbar.Link
-                        active
-                        href="#"
+
+                        href="#mission"
                     >
                         <p>
                             Our Mission
                         </p>
                     </Navbar.Link>
 
+                    <Navbar.Link href="#events">
+                        Events
+                    </Navbar.Link>
+
                     <Navbar.Link
-                        href="#"
+                        href="#about"
                     >
                         <p>
                             About
                         </p>
                     </Navbar.Link>
 
-                    <Navbar.Link href="#">
-                        Services
-                    </Navbar.Link>
-
-                    <Navbar.Link href="#">
-                        Pricing
-                    </Navbar.Link>
-
-                    <Navbar.Link href="#">
-                        Contact
+                    <Navbar.Link href="#donation">
+                        Donation
                     </Navbar.Link>
 
                 </Navbar.Collapse>
