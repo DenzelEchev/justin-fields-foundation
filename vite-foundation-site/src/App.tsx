@@ -51,8 +51,8 @@ const App = () => {
 
       <section id="about" className='flex flex-col items-center py-12' >
         <h2 className='text-3xl text-center lg:text-4xl'>Who is Justin Fields?</h2>
-        <img src={portrait} alt="player-portrait" className='w-2/3 my-4 h-2/3' />
-        <p className="w-2/3 text-center">A star quarterback with an eye out for our future, and whose heart is close to the youth</p>
+        <img src={portrait} alt="player-portrait" className='w-2/3 my-4 h-2/3 lg:w-1/2 lg:h-1/2' />
+        <p className="w-2/3 text-center">A star quarterback for the Chicago Bears with an eye out for our future, and whose heart is close to the youth. </p>
       </section>
 
       <section id='donation' className="flex flex-col items-center content-center px-8 py-24 bg-gradient-to-r from-indigo-500 to-sky-500">
