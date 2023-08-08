@@ -8,7 +8,6 @@ import caroImg1 from "./assets/caroImg1.jpeg"
 import caroImg2 from "./assets/caroImg2.jpeg"
 import caroImg3 from "./assets/caroImg3.jpeg"
 import caroImg4 from "./assets/caroImg4.jpeg"
-import portrait from "./assets/portrait.jpg"
 
 
 const App = () => {
@@ -47,12 +46,6 @@ const App = () => {
         </Carousel>
 
         <p className='text-2xl text-center text-white'>and we are just getting started</p>
-      </section>
-
-      <section id="about" className='flex flex-col items-center py-12' >
-        <h2 className='text-3xl text-center lg:text-4xl'>Who is Justin Fields?</h2>
-        <img src={portrait} alt="player-portrait" className='w-2/3 my-4 h-2/3 lg:w-1/2 lg:h-1/2' />
-        <p className="w-2/3 text-center">A star quarterback for the Chicago Bears with an eye out for our future, and whose heart is close to the youth. </p>
       </section>
 
       <section id='donation' className="flex flex-col items-center content-center px-8 py-24 bg-gradient-to-r from-indigo-500 to-sky-500">
