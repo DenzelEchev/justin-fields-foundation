@@ -2,6 +2,7 @@ import { Carousel } from 'flowbite-react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Button from './components/Button'
+import Card from './components/Card'
 import mainBg from "./assets/main-bg.jpeg"
 import logo from "./assets/logo.jpeg"
 import caroImg1 from "./assets/caroImg1.jpeg"
@@ -32,7 +33,7 @@ const App = () => {
         </div>
       </section>
 
-      <section id="events" className="flex flex-col items-center h-[32rem] lg:h-[48rem] bg-gradient-to-r from-indigo-500 to-sky-500">
+      <section id="legacy" className="flex flex-col items-center h-[32rem] lg:h-[48rem] bg-gradient-to-r from-indigo-500 to-sky-500">
         <h2 className='pt-4 text-3xl text-center text-white lg:pt-12'>A small part of our legacy</h2>
 
         <Carousel className='my-8 w-72 h-72 sm:w-2/3 sm:h-2/3'>
@@ -46,6 +47,16 @@ const App = () => {
         </Carousel>
 
         <p className='text-2xl text-center text-white'>and we are just getting started</p>
+      </section>
+
+      <section id='past_events' className='flex flex-col items-center'>
+        <h2 className='text-2xl'>Here are some of our previous events</h2>
+        <div className='flex justify-between'>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+        </div>
+
       </section>
 
       <section id='donation' className="flex flex-col items-center content-center px-8 py-24 bg-gradient-to-r from-indigo-500 to-sky-500">

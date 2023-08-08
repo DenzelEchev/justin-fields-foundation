@@ -7,7 +7,6 @@ const Header: FC = () => {
         <>
             <Navbar
                 fluid
-                rounded
             >
                 <Navbar.Brand>
                     <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
@@ -25,15 +24,15 @@ const Header: FC = () => {
                         </p>
                     </Navbar.Link>
 
-                    <Navbar.Link href="#events">
-                        Events
+                    <Navbar.Link href="#legacy">
+                        Our Legacy
                     </Navbar.Link>
 
                     <Navbar.Link
-                        href="#about"
+                        href="#past_events"
                     >
                         <p>
-                            About
+                            Past Events
                         </p>
                     </Navbar.Link>
 
