@@ -3,12 +3,12 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Button from './components/Button'
 import Card from './components/Card'
-import mainBg from "./assets/main-bg.jpeg"
 import logo from "./assets/logo.jpeg"
 import caroImg1 from "./assets/caroImg1.jpeg"
 import caroImg2 from "./assets/caroImg2.jpeg"
 import caroImg3 from "./assets/caroImg3.jpeg"
 import caroImg4 from "./assets/caroImg4.jpeg"
+import JFF from "./assets/JFF.mp4"
 
 
 const App = () => {
@@ -18,9 +18,13 @@ const App = () => {
         <Header />
       </header>
 
-      <main className="flex flex-col items-center h-screen bg-center bg-cover bg-black/50 bg-blend-darken" style={{ backgroundImage: `url(${mainBg})` }}>
+      <main className="flex flex-col items-center h-screen bg-center bg-cover bg-black/50 bg-blend-darken" style={{ backgroundImage: `url(${JFF})` }}>
         <h1 className="pb-4 mt-56 text-4xl text-center text-white lg:text-7xl">Here for our Community</h1>
         <p className="self-center w-3/4 text-center text-white text-md lg:text-2xl lg:mt-8 pb-44">The Justin Fields Foundation is dedicated to strengthening communities through focused grantmaking and strategic partnerships in the areas of youth empowerment, scholastic achievement, health, wellness and leadership development.</p>
+        <video autoPlay loop muted className="absolute bottom-0 right-0 object-cover w-full h-full -z-10">
+          <source src={JFF} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </main>
 
       <section id="mission" className="flex flex-col p-8 lg:flex-row">
