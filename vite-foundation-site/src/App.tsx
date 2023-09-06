@@ -2,12 +2,14 @@ import { Carousel } from 'flowbite-react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Button from './components/Button'
-import Card from './components/Card'
 import logo from "./assets/logo.jpeg"
 import caroImg1 from "./assets/caroImg1.jpeg"
 import caroImg2 from "./assets/caroImg2.jpeg"
 import caroImg3 from "./assets/caroImg3.jpeg"
 import caroImg4 from "./assets/caroImg4.jpeg"
+import qbPic from "./assets/qbpic.png"
+import checkImg from "./assets/checkImg.png"
+import grpCheck from "./assets/grpcheck.png"
 import JFF from "./assets/JFF.mp4"
 
 
@@ -54,11 +56,11 @@ const App = () => {
       </section>
 
       <section id='past_events' className='flex flex-col items-center'>
-        <h2 className='text-2xl'>Here are some of our previous events</h2>
-        <div className='flex justify-between'>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
+        <h2 className='py-4 text-2xl'>Our Community Impact</h2>
+        <div className='flex flex-col items-center'>
+          <img src={grpCheck} alt="" className='p-2' />
+          <img src={qbPic} alt="" className='p-2' />
+          <img src={checkImg} alt="" className='p-2' />
         </div>
 
       </section>
