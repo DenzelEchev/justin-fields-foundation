@@ -29,7 +29,7 @@ const App = () => {
         </video>
       </main>
 
-      <section id="mission" className="flex flex-col p-8 lg:flex-row">
+      <section id="mission" className="flex flex-col p-8 lg:flex-row ">
         <div className="flex flex-col items center">
           <h1 className="py-4 text-4xl text-center">Our Mission</h1>
           <img src={logo} alt="" />
@@ -40,9 +40,9 @@ const App = () => {
       </section>
 
       <section id="legacy" className="flex flex-col items-center h-[32rem] lg:h-[48rem] bg-gradient-to-r from-indigo-500 to-sky-500">
-        <h2 className='pt-4 text-3xl text-center text-white lg:pt-12'>A small part of our legacy</h2>
+        <h2 className='pt-4 text-3xl text-center text-white lg:pt-12'>Our Community Impact</h2>
 
-        <Carousel className='my-8 w-72 h-72 sm:w-2/3 sm:h-2/3'>
+        <Carousel className='w-2/3 my-8 h-2/3 sm:w-2/3 sm:h-2/3'>
           <img alt="..." src={caroImg1} />
 
           <img alt="..." src={caroImg2} />
@@ -50,30 +50,24 @@ const App = () => {
           <img alt="..." src={caroImg3} />
 
           <img alt="..." src={caroImg4} />
+
+          <img alt="..." src={grpCheck} />
+
+          <img alt="..." src={qbPic} />
+
+          <img alt="..." src={checkImg} />
         </Carousel>
 
-        <p className='text-2xl text-center text-white'>and we are just getting started</p>
       </section>
 
-      <section id='past_events' className='flex flex-col items-center'>
-        <h2 className='py-4 text-2xl'>Our Community Impact</h2>
-        <div className='flex flex-col items-center'>
-          <img src={grpCheck} alt="" className='p-2' />
-          <img src={qbPic} alt="" className='p-2' />
-          <img src={checkImg} alt="" className='p-2' />
-        </div>
-
-      </section>
-
-      <section id='donation' className="flex flex-col items-center content-center px-8 py-24 bg-gradient-to-r from-indigo-500 to-sky-500">
-        <h2 className="text-4xl font-bold text-center text-white py-4a lg:text-2xl">Contributing towards the Future Generations</h2>
-        <p className="px-4 py-4 text-center text-white lg:text-xl"> While we are making strides in our communities, we can't do it alone. We appreciate all the help we get and feel safe knowing that it is going towards a great cause, OUR future.</p>
+      <section id='donation' className="flex flex-col items-center content-center px-8 py-24 ">
+        <h2 className="text-4xl font-bold text-center py-4a lg:text-2xl">Contributing towards the Future Generations</h2>
+        <p className="px-4 py-4 text-center lg:text-xl"> While we are making strides in our communities, we can't do it alone. If you would like to support the Justin Fields Foundation and it’s initiatives to create a brighter future for our youth and underserved communities, please click the donate button below. All donations are tax deductible. </p>
         <Button bName={"Donate"} bLink={" "} bUrl={"https://give.cornerstone.cc/justinfieldsfoundation"} />
       </section>
 
-      <footer className="flex-col items-center p-2 py-2 lg:flex-row lg:justify-center">
-        <Footer />
-      </footer>
+      <Footer />
+
     </>
   )
 }

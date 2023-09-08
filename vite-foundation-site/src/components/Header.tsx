@@ -25,7 +25,7 @@ const Header: FC = () => {
                     </Navbar.Link>
 
                     <Navbar.Link href="#legacy">
-                        Our Legacy
+                        Our Impact
                     </Navbar.Link>
 
                     <Navbar.Link
@@ -37,7 +37,7 @@ const Header: FC = () => {
                     </Navbar.Link>
 
                     <Navbar.Link href="#donation">
-                        Donation
+                        Donate
                     </Navbar.Link>
 
                 </Navbar.Collapse>
