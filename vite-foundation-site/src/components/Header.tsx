@@ -28,14 +28,6 @@ const Header: FC = () => {
                         Our Impact
                     </Navbar.Link>
 
-                    <Navbar.Link
-                        href="#past_events"
-                    >
-                        <p>
-                            Past Events
-                        </p>
-                    </Navbar.Link>
-
                     <Navbar.Link href="#donation">
                         Donate
                     </Navbar.Link>
