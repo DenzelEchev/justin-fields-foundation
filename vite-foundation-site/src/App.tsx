@@ -29,12 +29,12 @@ const App = () => {
         </video>
       </main>
 
-      <section id="mission" className="flex flex-col p-8 lg:flex-row ">
+      <section id="mission" className="flex flex-col justify-around p-8 lg:flex-row">
         <div className="flex flex-col items center">
           <h1 className="py-4 text-4xl text-center">Our Mission</h1>
           <img src={logo} alt="" />
         </div>
-        <div className="py-10 text-center text-l lg:text-2xl lg:w-2/3 lg:mt-12">
+        <div className="py-10 text-center text-l lg:text-2xl lg:w-1/2 lg:mt-12">
           <p>The Justin Fields Foundation, established with a profound commitment to making a positive impact, is a beacon of hope and progress for communities in need. With a clear vision for transformation, the foundation channels its efforts towards fostering a brighter future through a combination of strategic grantmaking and impactful partnerships.</p>
         </div>
       </section>
@@ -62,7 +62,7 @@ const App = () => {
 
       <section id='donation' className="flex flex-col items-center content-center px-8 py-24 ">
         <h2 className="text-4xl font-bold text-center py-4a lg:text-2xl">Contributing towards the Future Generations</h2>
-        <p className="px-4 py-4 text-center lg:text-xl"> While we are making strides in our communities, we can't do it alone. If you would like to support the Justin Fields Foundation and it’s initiatives to create a brighter future for our youth and underserved communities, please click the donate button below. All donations are tax deductible. </p>
+        <p className="px-4 py-4 text-center lg:w-1/2 lg:text-xl"> While we are making strides in our communities, we can't do it alone. If you would like to support the Justin Fields Foundation and it's initiatives to create a brighter future for our youth and underserved communities, please click the donate button below. All donations are tax deductible. </p>
         <Button bName={"Donate"} bLink={" "} bUrl={"https://give.cornerstone.cc/justinfieldsfoundation"} />
       </section>
 
