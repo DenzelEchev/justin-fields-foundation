@@ -8,8 +8,8 @@ const Footer = () => {
                 <img src={logo} alt="" className="w-16 h-12 lg:w-32 lg:h-24" />
             </div>
             <div className="flex flex-col items-center justify-center w-full py-2 border-b-2">
-                <p className="w-3/4 pb-4 text-xs text-center lg:font-bold">The Justin Fields Foundation is dedicated to carrying out its mission to positively impact youth and the underserved community. While we are grateful for all of Justin’s amazing fans and those who support the JFF, we are unable to accept requests for autographs, interviews, personal appearances, auction items or game tickets.  Please refrain from personal solicitations. Thank you for your understanding and continued support as we strive to create a brighter future for our youth.</p>
-                <p className="w-3/4 text-xs text-center lg:font-bold">Disclaimer Statement:
+                <p className="w-3/4 pb-4 text-xs font-bold text-center">The Justin Fields Foundation is dedicated to carrying out its mission to positively impact youth and the underserved community. While we are grateful for all of Justin’s amazing fans and those who support the JFF, we are unable to accept requests for autographs, interviews, personal appearances, auction items or game tickets.  Please refrain from personal solicitations. Thank you for your understanding and continued support as we strive to create a brighter future for our youth.</p>
+                <p className="w-3/4 text-xs font-bold text-center">Disclaimer Statement:
                     The Justin Fields Foundation is a Delaware limited liability corporation operating through a fiscal sponsorship with Players Philanthropy Fund, a Maryland charitable trust recognized by IRS as a tax-exempt public charity under Section 501(c)(3) of the Internal Revenue Code (Federal Tax ID: 27-6601178). Contributions to The Justin Fields Foundation qualify as tax-deductible to the fullest extent of the law.</p>
             </div>
 
