@@ -64,14 +64,14 @@ const App = () => {
 
         <div className="flex flex-wrap items-center justify-center w-full lg:justify-around">
 
-          <div className="flex flex-col w-4/5 h-56 p-4 mb-12 text-black bg-white rounded-md shadow-2xl lg:w-1/3 lg:mb-0">
+          <div className="flex flex-col w-4/5 h-48 p-4 mb-12 text-black bg-white rounded-md shadow-2xl lg:w-1/3 lg:mb-0">
             <h3 className="pb-4">Justin Fields welcomes hundreds of kids to second annual youth football camp</h3>
             <span>Written By Gabby Hajduk</span>
             <a href="https://www.chicagobears.com/news/justin-fields-welcomes-hundreds-of-kids-to-second-annual-youth-football-camp" target='_blank' className="mb-2 text-indigo-600 underline">Read More</a>
             <span>Jul 19, 2023</span>
           </div>
 
-          <div className="flex flex-col w-4/5 h-56 p-4 text-black bg-white rounded-md shadow-2xl lg:w-1/3">
+          <div className="flex flex-col w-4/5 h-48 p-4 text-black bg-white rounded-md shadow-2xl lg:w-1/3">
             <h3 className="pb-4">Justin Fields donates $10k to Special Olympics</h3>
             <span>Written By Larry Mayer</span>
             <a href="https://www.chicagobears.com/news/justin-fields-donates-10k-to-special-olympics" target='_blank' className="mb-2 text-indigo-600 underline">Read More</a>
