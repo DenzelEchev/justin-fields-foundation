@@ -38,10 +38,10 @@ const App = () => {
         </div>
       </section>
 
-      <section id="legacy" className="flex flex-col items-center h-[32rem] lg:h-[48rem] bg-gradient-to-r from-indigo-500 to-sky-500">
+      <section id="legacy" className="flex flex-col items-center h-screen bg-gradient-to-r from-indigo-500 to-sky-500">
         <h2 className='pt-4 text-3xl text-center text-white lg:pt-12'>Community Impact</h2>
 
-        <Carousel className='w-2/3 my-8 h-2/3 sm:w-2/3 sm:h-2/3 lg:h-5/6 lg:w-5/6'>
+        <Carousel className='w-11/12 my-8 h-5/6'>
           <img alt="..." src={caroImg1} />
 
           <img alt="..." src={caroImg2} />
