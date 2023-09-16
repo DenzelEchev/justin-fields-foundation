@@ -20,16 +20,24 @@ const Header: FC = () => {
                         href="#mission"
                     >
                         <p>
-                            Our Mission
+                            About Us
                         </p>
                     </Navbar.Link>
 
                     <Navbar.Link href="#legacy">
-                        Our Impact
+                        In The Community
+                    </Navbar.Link>
+
+                    <Navbar.Link href="#press">
+                        Press
                     </Navbar.Link>
 
                     <Navbar.Link href="#donation">
                         Donate
+                    </Navbar.Link>
+
+                    <Navbar.Link href="#contactUs">
+                        Contact Us
                     </Navbar.Link>
 
                 </Navbar.Collapse>
