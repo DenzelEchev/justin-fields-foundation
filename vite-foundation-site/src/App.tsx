@@ -28,13 +28,15 @@ const App = () => {
         </video>
       </main>
 
-      <section id="mission" className="flex flex-col justify-around p-8 lg:flex-row">
-        <div className="flex flex-col items center">
-          <h2 className="py-4 text-4xl font-bold text-center">About Us</h2>
+      <section id="mission" className="flex flex-wrap p-8 lg:flex-row">
+        <h2 className="w-full py-4 text-4xl font-bold text-center">About Us</h2>
+
+        <div className="flex items-center justify-center w-full lg:w-1/2">
           <img src={logo} alt="" />
         </div>
-        <div className="flex items-center justify-center pb-4 text-xl font-bold text-center lg:text-2xl lg:w-1/2">
-          <p>The Justin Fields Foundation is dedicated to strengthening communities through focused grantmaking and strategic partnerships in the areas of youth empowerment, scholastic achievement, health, wellness and leadership development.</p>
+
+        <div className="flex items-center justify-center w-full pb-4 text-xl font-bold lg:text-2xl lg:w-1/2">
+          <p className="text-center">The Justin Fields Foundation is dedicated to strengthening communities through focused grantmaking and strategic partnerships in the areas of youth empowerment, scholastic achievement, health, wellness and leadership development.</p>
         </div>
       </section>
 
