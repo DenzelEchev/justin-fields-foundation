@@ -20,8 +20,8 @@ const App = () => {
       </header>
 
       <main className="flex flex-col items-center justify-center h-screen bg-center bg-cover bg-black/50 bg-blend-darken" style={{ backgroundImage: `url(${JFF})` }}>
-        <h1 className="pb-4 text-4xl text-center text-white lg:text-7xl">Here for our Community</h1>
-        <p className="self-center w-3/4 text-center text-white text-md lg:text-2xl lg:mt-8 pb-44">The Justin Fields Foundation, established with a profound commitment to making a positive impact, is a beacon of hope and progress for communities in need. With a clear vision for transformation, the foundation channels its efforts towards fostering a brighter future through a combination of strategic grantmaking and impactful partnerships.</p>
+        <h1 className="pb-4 text-4xl font-bold text-center text-white lg:text-7xl">Here for our Community</h1>
+        <p className="self-center w-5/6 text-xl font-bold text-center text-white lg:text-2xl lg:mt-8 pb-44">The Justin Fields Foundation, established with a profound commitment to making a positive impact, is a beacon of hope and progress for communities in need. With a clear vision for transformation, the foundation channels its efforts towards fostering a brighter future through a combination of strategic grantmaking and impactful partnerships.</p>
         <video autoPlay loop muted className="absolute bottom-0 right-0 object-cover w-full h-full -z-10">
           <source src={JFF} type="video/mp4" />
           Your browser does not support the video tag.
@@ -30,16 +30,16 @@ const App = () => {
 
       <section id="mission" className="flex flex-col justify-around p-8 lg:flex-row">
         <div className="flex flex-col items center">
-          <h2 className="py-4 text-4xl text-center">About Us</h2>
+          <h2 className="py-4 text-4xl font-bold text-center">About Us</h2>
           <img src={logo} alt="" />
         </div>
-        <div className="py-10 text-center text-l lg:text-2xl lg:w-1/2 lg:mt-12">
+        <div className="flex items-center justify-center pb-4 text-xl font-bold text-center lg:text-2xl lg:w-1/2">
           <p>The Justin Fields Foundation is dedicated to strengthening communities through focused grantmaking and strategic partnerships in the areas of youth empowerment, scholastic achievement, health, wellness and leadership development.</p>
         </div>
       </section>
 
       <section id="legacy" className="flex flex-col items-center h-screen bg-gradient-to-r from-indigo-500 to-sky-500">
-        <h2 className='pt-4 text-3xl text-center text-white lg:pt-12'>Community Impact</h2>
+        <h2 className="pt-4 text-3xl font-bold text-center text-white lg:pt-12">Community Impact</h2>
 
         <Carousel className='w-11/12 my-8 h-5/6'>
           <img alt="..." src={caroImg1} />
@@ -60,7 +60,7 @@ const App = () => {
       </section>
 
       <section id="press" className="flex flex-wrap justify-center pb-20 text-white bg-gradient-to-r from-indigo-500 to-sky-500">
-        <h2 className="w-full mb-8 text-4xl text-center">Press</h2>
+        <h2 className="w-full mb-8 text-4xl font-bold text-center">Press</h2>
 
         <div className="flex flex-wrap items-center justify-center w-full lg:justify-around">
 
@@ -85,7 +85,7 @@ const App = () => {
 
         <h2 className="w-full text-4xl font-bold text-center py-4a lg:text-2xl">Two ways to Donate</h2>
 
-        <p className="w-full p-4 mb-4 text-center lg:text-xl"> The Justin Fields Foundation is dedicated to creating a brighter future for youth in underserved and under-resourced communities. Thank you for supporting the JFF and it's initiatives as we join together to accomplish our common goal of youth empowerment, opportunity and achievement. </p>
+        <p className="w-full p-4 mb-4 font-bold text-center lg:text-xl"> The Justin Fields Foundation is dedicated to creating a brighter future for youth in underserved and under-resourced communities. Thank you for supporting the JFF and it's initiatives as we join together to accomplish our common goal of youth empowerment, opportunity and achievement. </p>
 
         <div className='flex flex-col items-center justify-center w-full lg:w-2/5'>
           <Button bName={"Donate"} bLink={" "} bUrl={"https://give.cornerstone.cc/justinfieldsfoundation"} />
