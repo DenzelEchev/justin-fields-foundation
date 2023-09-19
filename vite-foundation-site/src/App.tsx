@@ -122,7 +122,7 @@ const App = () => {
 
       </section>
 
-      <section className="text-white bg-gradient-to-r from-indigo-500 to-sky-500">
+      <section id="contactUs" className="py-12 text-white bg-gradient-to-r from-indigo-500 to-sky-500">
         <h3 className="py-4 pb-2 text-4xl font-bold text-center">Contact Us</h3>
 
         <div className="flex flex-wrap w-full px-2">
