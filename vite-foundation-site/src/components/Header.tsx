@@ -32,11 +32,11 @@ const Header: FC = () => {
                     </Navbar.Link>
 
                     <Navbar.Link href="#donation">
-                        Contact Us
+                        Donate
                     </Navbar.Link>
 
                     <Navbar.Link href="#contactUs">
-                        Donate
+                        Contact Us
                     </Navbar.Link>
 
                 </Navbar.Collapse>

@@ -102,6 +102,27 @@ const App = () => {
         </div>
       </section>
 
+      <section id='donation' className="flex flex-wrap items-center justify-center px-8 py-24 ">
+
+        <h2 className="w-full text-4xl font-bold text-center py-4a lg:text-2xl">Two ways to Donate</h2>
+
+        <p className="w-full p-4 mb-4 font-bold text-center lg:text-xl"> The Justin Fields Foundation is dedicated to creating a brighter future for youth in underserved and under-resourced communities. Thank you for supporting the JFF and its initiatives as we join together to accomplish our common goal of youth empowerment, opportunity and achievement. </p>
+
+        <div className='flex flex-col items-center justify-center w-full lg:w-2/5'>
+          <Button bName={"Donate"} bLink={" "} bUrl={"https://give.cornerstone.cc/justinfieldsfoundation"} />
+          <p className='py-2'>Click here to donate online</p>
+        </div>
+
+        <p className='w-full my-4 text-center lg:w-1/5'> OR </p>
+
+        <div className="w-full text-center lg:w-2/5">
+          <p className='pb-4'>By Mail:</p>
+          <p className='underline '>1720 Mars Hill Road, Suite 124-206, Acworth, Georgia 30101.</p>
+        </div>
+
+
+      </section>
+
       <section id="contactUs" className="flex flex-col items-center justify-around py-12 text-white bg-gradient-to-r from-indigo-500 to-sky-500">
         <h3 className="py-4 pb-2 text-4xl font-bold text-center">Contact Us</h3>
 
@@ -124,27 +145,6 @@ const App = () => {
           </div>
 
         </div>
-      </section>
-
-      <section id='donation' className="flex flex-wrap items-center justify-center px-8 py-24 ">
-
-        <h2 className="w-full text-4xl font-bold text-center py-4a lg:text-2xl">Two ways to Donate</h2>
-
-        <p className="w-full p-4 mb-4 font-bold text-center lg:text-xl"> The Justin Fields Foundation is dedicated to creating a brighter future for youth in underserved and under-resourced communities. Thank you for supporting the JFF and its initiatives as we join together to accomplish our common goal of youth empowerment, opportunity and achievement. </p>
-
-        <div className='flex flex-col items-center justify-center w-full lg:w-2/5'>
-          <Button bName={"Donate"} bLink={" "} bUrl={"https://give.cornerstone.cc/justinfieldsfoundation"} />
-          <p className='py-2'>Click here to donate online</p>
-        </div>
-
-        <p className='w-full my-4 text-center lg:w-1/5'> OR </p>
-
-        <div className="w-full text-center lg:w-2/5">
-          <p className='pb-4'>By Mail:</p>
-          <p className='underline '>1720 Mars Hill Road, Suite 124-206, Acworth, Georgia 30101.</p>
-        </div>
-
-
       </section>
 
       <Footer />
