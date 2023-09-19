@@ -50,9 +50,9 @@ const App = () => {
       </section>
 
       <section id="legacy" className="flex flex-col items-center h-screen bg-gradient-to-r from-indigo-500 to-sky-500">
-        <h2 className="pt-4 text-3xl font-bold text-center text-white lg:pt-12">Community Impact</h2>
+        <h2 className="pt-4 text-3xl font-bold text-center text-white lg:pb-20">Community Impact</h2>
 
-        <Carousel className='w-11/12 my-8 h-5/6'>
+        <Carousel className='w-11/12 h-5/6'>
           <img alt="..." src={caroImg1} />
 
           <img alt="..." src={caroImg2} />
@@ -105,6 +105,8 @@ const App = () => {
       <section id="contactUs" className="py-12 text-white bg-gradient-to-r from-indigo-500 to-sky-500">
         <h3 className="py-4 pb-2 text-4xl font-bold text-center">Contact Us</h3>
 
+        <p className="p-4 text-xl text-center lg:text-2xl">The Justin Fields Foundation is dedicated to carrying out its mission to positively impact youth and the underserved community. While we are grateful for all of Justin's amazing fans and those who support the JFF, we are unable to accept requests for autographs, interviews, personal appearances, auction items or game tickets.  Please refrain from personal solicitations. Thank you for your understanding and continued support as we strive to create a brighter future for our youth.</p>
+
         <div className="flex flex-wrap w-full px-2">
           <div className="w-full py-4 text-center">
             <p className="text-xl lg:text-3xl">The Justin Fields Foundation</p>
@@ -142,7 +144,6 @@ const App = () => {
           <p className='underline '>1720 Mars Hill Road, Suite 124-206, Acworth, Georgia 30101.</p>
         </div>
 
-        <p className="py-8 text-xl text-center lg:text-2xl">The Justin Fields Foundation is dedicated to carrying out its mission to positively impact youth and the underserved community. While we are grateful for all of Justin's amazing fans and those who support the JFF, we are unable to accept requests for autographs, interviews, personal appearances, auction items or game tickets.  Please refrain from personal solicitations. Thank you for your understanding and continued support as we strive to create a brighter future for our youth.</p>
 
       </section>
 
