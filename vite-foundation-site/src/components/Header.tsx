@@ -37,7 +37,7 @@ const Header: FC = () => {
                     </Navbar.Link>
 
                     <Navbar.Link href="#contactUs">
-                        Contact Us/Disclaimer
+                        Contact Us
                     </Navbar.Link>
 
                 </Navbar.Collapse>
