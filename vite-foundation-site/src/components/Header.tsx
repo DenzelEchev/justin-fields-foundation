@@ -1,5 +1,6 @@
 import { FC } from "react"
 import { Navbar } from "flowbite-react"
+import logo from "../assets/logo.jpeg"
 
 const Header: FC = () => {
 
@@ -9,9 +10,7 @@ const Header: FC = () => {
                 fluid
             >
                 <Navbar.Brand>
-                    <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                        The Justin Fields Foundation
-                    </span>
+                    <img src={logo} alt="" className="w-24 h-20" />
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
@@ -33,11 +32,11 @@ const Header: FC = () => {
                     </Navbar.Link>
 
                     <Navbar.Link href="#donation">
-                        Donate
+                        Contact Us
                     </Navbar.Link>
 
                     <Navbar.Link href="#contactUs">
-                        Contact Us
+                        Donate
                     </Navbar.Link>
 
                 </Navbar.Collapse>

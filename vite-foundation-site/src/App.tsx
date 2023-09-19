@@ -27,8 +27,8 @@ const App = () => {
       </header>
 
       <main className="flex flex-col items-center justify-center h-screen bg-center bg-cover bg-black/50 bg-blend-darken" style={{ backgroundImage: `url(${JFF})` }}>
-        <h1 className="pb-4 text-4xl font-bold text-center text-white lg:text-7xl">Here for our Community</h1>
-        <p className="self-center w-5/6 text-xl font-bold text-center text-white lg:text-2xl lg:mt-8 pb-44">The Justin Fields Foundation, established with a profound commitment to making a positive impact, is a beacon of hope and progress for communities in need. With a clear vision for transformation, the foundation channels its efforts towards fostering a brighter future through a combination of strategic grantmaking and impactful partnerships.</p>
+        <h1 className="pb-4 text-4xl font-bold text-center text-white lg:text-7xl">The Justin Fields Foundation</h1>
+        <p className="self-center w-5/6 text-xl font-bold text-center text-white lg:text-2xl lg:mt-8 pb-44"></p>
         <video autoPlay loop muted className="absolute bottom-0 right-0 object-cover w-full h-full -z-10">
           <source src={JFF} type="video/mp4" />
           Your browser does not support the video tag.
@@ -46,7 +46,7 @@ const App = () => {
           <p className="text-xl font-bold text-center lg:text-2xl ">The Justin Fields Foundation is dedicated to strengthening communities through focused grantmaking and strategic partnerships in the areas of youth empowerment, scholastic achievement, health, wellness and leadership development.
           </p>
         </div>
-        <p className="py-8 text-xl text-center lg:text-2xl">The Justin Fields Foundation is dedicated to carrying out its mission to positively impact youth and the underserved community. While we are grateful for all of Justin's amazing fans and those who support the JFF, we are unable to accept requests for autographs, interviews, personal appearances, auction items or game tickets.  Please refrain from personal solicitations. Thank you for your understanding and continued support as we strive to create a brighter future for our youth.</p>
+
       </section>
 
       <section id="legacy" className="flex flex-col items-center h-screen bg-gradient-to-r from-indigo-500 to-sky-500">
@@ -102,26 +102,6 @@ const App = () => {
         </div>
       </section>
 
-      <section id='donation' className="flex flex-wrap items-center justify-center px-8 py-24 ">
-
-        <h2 className="w-full text-4xl font-bold text-center py-4a lg:text-2xl">Two ways to Donate</h2>
-
-        <p className="w-full p-4 mb-4 font-bold text-center lg:text-xl"> The Justin Fields Foundation is dedicated to creating a brighter future for youth in underserved and under-resourced communities. Thank you for supporting the JFF and its initiatives as we join together to accomplish our common goal of youth empowerment, opportunity and achievement. </p>
-
-        <div className='flex flex-col items-center justify-center w-full lg:w-2/5'>
-          <Button bName={"Donate"} bLink={" "} bUrl={"https://give.cornerstone.cc/justinfieldsfoundation"} />
-          <p className='py-2'>Click here to donate online</p>
-        </div>
-
-        <p className='w-full my-4 text-center lg:w-1/5'> OR </p>
-
-        <div className="w-full text-center lg:w-2/5">
-          <p className='pb-4'>By Mail:</p>
-          <p className='underline '>1720 Mars Hill Road, Suite 124-206, Acworth, Georgia 30101.</p>
-        </div>
-
-      </section>
-
       <section id="contactUs" className="py-12 text-white bg-gradient-to-r from-indigo-500 to-sky-500">
         <h3 className="py-4 pb-2 text-4xl font-bold text-center">Contact Us</h3>
 
@@ -142,6 +122,28 @@ const App = () => {
           </div>
 
         </div>
+      </section>
+
+      <section id='donation' className="flex flex-wrap items-center justify-center px-8 py-24 ">
+
+        <h2 className="w-full text-4xl font-bold text-center py-4a lg:text-2xl">Two ways to Donate</h2>
+
+        <p className="w-full p-4 mb-4 font-bold text-center lg:text-xl"> The Justin Fields Foundation is dedicated to creating a brighter future for youth in underserved and under-resourced communities. Thank you for supporting the JFF and its initiatives as we join together to accomplish our common goal of youth empowerment, opportunity and achievement. </p>
+
+        <div className='flex flex-col items-center justify-center w-full lg:w-2/5'>
+          <Button bName={"Donate"} bLink={" "} bUrl={"https://give.cornerstone.cc/justinfieldsfoundation"} />
+          <p className='py-2'>Click here to donate online</p>
+        </div>
+
+        <p className='w-full my-4 text-center lg:w-1/5'> OR </p>
+
+        <div className="w-full text-center lg:w-2/5">
+          <p className='pb-4'>By Mail:</p>
+          <p className='underline '>1720 Mars Hill Road, Suite 124-206, Acworth, Georgia 30101.</p>
+        </div>
+
+        <p className="py-8 text-xl text-center lg:text-2xl">The Justin Fields Foundation is dedicated to carrying out its mission to positively impact youth and the underserved community. While we are grateful for all of Justin's amazing fans and those who support the JFF, we are unable to accept requests for autographs, interviews, personal appearances, auction items or game tickets.  Please refrain from personal solicitations. Thank you for your understanding and continued support as we strive to create a brighter future for our youth.</p>
+
       </section>
 
       <Footer />
