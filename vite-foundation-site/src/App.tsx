@@ -79,7 +79,7 @@ const App = () => {
       </section>
 
       <section id="press" className="flex flex-wrap justify-center pb-20 text-white bg-gradient-to-r from-indigo-500 to-sky-500">
-        <h2 className="w-full mb-8 text-4xl font-bold text-center">Press</h2>
+        <h2 className="w-full mb-8 text-4xl font-bold text-center lg:pt-8">Press</h2>
 
         <div className="flex flex-wrap items-center justify-center w-full lg:justify-around">
 
