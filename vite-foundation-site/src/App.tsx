@@ -102,13 +102,13 @@ const App = () => {
         </div>
       </section>
 
-      <section id="contactUs" className="py-12 text-white bg-gradient-to-r from-indigo-500 to-sky-500">
+      <section id="contactUs" className="flex flex-col items-center justify-around py-12 text-white bg-gradient-to-r from-indigo-500 to-sky-500">
         <h3 className="py-4 pb-2 text-4xl font-bold text-center">Contact Us</h3>
 
-        <p className="p-4 text-xl text-center lg:text-2xl">The Justin Fields Foundation is dedicated to carrying out its mission to positively impact youth and the underserved community. While we are grateful for all of Justin's amazing fans and those who support the JFF, we are unable to accept requests for autographs, interviews, personal appearances, auction items or game tickets.  Please refrain from personal solicitations. Thank you for your understanding and continued support as we strive to create a brighter future for our youth.</p>
+        <p className="w-3/4 text-xl text-center lg:text-2xl">The Justin Fields Foundation is dedicated to carrying out its mission to positively impact youth and the underserved community. While we are grateful for all of Justin's amazing fans and those who support the JFF, we are unable to accept requests for autographs, interviews, personal appearances, auction items or game tickets.  Please refrain from personal solicitations. Thank you for your understanding and continued support as we strive to create a brighter future for our youth.</p>
 
         <div className="flex flex-wrap w-full px-2">
-          <div className="w-full py-4 text-center">
+          <div className="w-full py-8 text-center">
             <p className="text-xl lg:text-3xl">The Justin Fields Foundation</p>
             <p className="text-xl lg:text-3xl">1720 Mars Hills Road</p>
             <p className="text-xl lg:text-3xl">Suite 124-206</p>
@@ -116,7 +116,7 @@ const App = () => {
             <a href="mailto:info@thejff.org" target="_blank" className="pt-2 text-2xl font-bold">info@thejff.org</a>
           </div>
 
-          <div className="flex flex-wrap justify-center w-full py-4">
+          <div className="flex flex-wrap justify-center w-full py-8">
             <h3 className="w-full pb-2 font-bold text-center">Follow Us</h3>
             <a target="_blank" href="https://www.instagram.com/justinfieldsfoundation/"><FaSquareInstagram size="3rem" className="pr-1 " /></a>
             <a target="_blank" href="https://www.threads.net/@justinfieldsfoundation"><FaSquareThreads size="3rem" className="" /></a>
