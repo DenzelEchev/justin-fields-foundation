@@ -52,6 +52,8 @@ const App = () => {
       <section id="legacy" className="flex flex-col items-center h-screen bg-gradient-to-r from-indigo-500 to-sky-500">
         <h2 className="pt-4 text-3xl font-bold text-center text-white lg:pb-20">Community Impact</h2>
 
+        {/* Adding another image is very simple as it is just a matter of importing it in from the assets folder. After that just put it in the same format that the other images below are in easy peasy */}
+
         <Carousel className='w-11/12 h-5/6'>
           <img alt="..." src={caroImg1} />
 
@@ -82,6 +84,16 @@ const App = () => {
         <h2 className="w-full mb-8 text-4xl font-bold text-center lg:pt-8">Press</h2>
 
         <div className="flex flex-wrap items-center justify-center w-full lg:justify-around">
+
+          {/* To add another article you can fill in the green text below and uncomment it out so it shows */}
+
+          {/* <div className="flex flex-col w-4/5 p-4 mb-12 text-black bg-white rounded-md shadow-2xl lg:w-1/3 lg:mb-0">
+            <img src={img goes here} alt="" className="self-center w-3/4 pb-4 h-5/6" />
+            <h3 className="pb-4">Article Heading goes here</h3>
+            <span>Written By Arthur's Name</span>
+            <a href="Link to article goes here" target='_blank' className="mb-2 text-indigo-600 underline">Read More</a>
+            <span>Jul 19, 2023</span>
+          </div> */}
 
           <div className="flex flex-col w-4/5 p-4 mb-12 text-black bg-white rounded-md shadow-2xl lg:w-1/3 lg:mb-0">
             <img src={caroImg3} alt="" className="self-center w-3/4 pb-4 h-5/6" />
