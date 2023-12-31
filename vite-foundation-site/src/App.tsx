@@ -1,4 +1,5 @@
 import { Carousel } from 'flowbite-react'
+import { useIsVisible } from './components/IsVisible'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Button from './components/Button'
@@ -18,8 +19,25 @@ import huddle from "./assets/huddle.jpg"
 import vidConf from "./assets/vidconf.jpg"
 import JFF from "./assets/JFF.mp4"
 import { FaSquareThreads, FaSquareXTwitter, FaSquareInstagram } from "react-icons/fa6"
+import { useRef } from 'react'
 
 const App = () => {
+
+  const ref1 = useRef<HTMLDivElement>(null);
+  const isVisible1 = useIsVisible(ref1);
+
+  const ref2 = useRef<HTMLDivElement>(null);
+  const isVisible2 = useIsVisible(ref2);
+
+  const ref3 = useRef<HTMLDivElement>(null);
+  const isVisible3 = useIsVisible(ref3);
+
+  const ref4 = useRef<HTMLDivElement>(null);
+  const isVisible4 = useIsVisible(ref4);
+
+  const ref5 = useRef<HTMLDivElement>(null);
+  const isVisible5 = useIsVisible(ref5);
+
   return (
     <>
       <header className='fixed top-0 left-0 right-0 z-10'>
@@ -35,7 +53,7 @@ const App = () => {
         </video>
       </main>
 
-      <section id="mission" className="flex flex-wrap p-8 lg:flex-row">
+      <section id="mission" ref={ref1} className={`flex flex-wrap p-8 lg:flex-row transition-opacity ease-in duration-1000 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
         <h2 className="w-full py-4 text-4xl font-bold text-center">About Us</h2>
 
         <div className="flex items-center justify-center w-full lg:w-1/2">
@@ -49,7 +67,7 @@ const App = () => {
 
       </section>
 
-      <section id="legacy" className="flex flex-col items-center h-screen bg-gradient-to-r from-indigo-500 to-sky-500">
+      <section id="legacy" ref={ref2} className={`flex flex-col items-center h-screen bg-gradient-to-r from-indigo-500 to-sky-500 transition-opacity ease-in duration-1000 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
         <h2 className="pt-4 text-3xl font-bold text-center text-white lg:pb-20">Community Impact</h2>
 
         {/* Adding another image is very simple as it is just a matter of importing it in from the assets folder. After that just put it in the same format that the other images below are in easy peasy */}
@@ -80,7 +98,7 @@ const App = () => {
 
       </section>
 
-      <section id="press" className="flex flex-wrap justify-center pb-20 text-white bg-gradient-to-r from-indigo-500 to-sky-500">
+      <section id="press" ref={ref3} className={`flex flex-wrap justify-center pb-20 text-white bg-gradient-to-r from-indigo-500 to-sky-500 transition-opacity ease-in duration-1000 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
         <h2 className="w-full mb-8 text-4xl font-bold text-center lg:pt-8">Press</h2>
 
         <div className="flex flex-wrap items-center justify-center w-full lg:justify-around">
@@ -114,7 +132,7 @@ const App = () => {
         </div>
       </section>
 
-      <section id='donation' className="flex flex-wrap items-center justify-center px-8 py-24 ">
+      <section id='donation' ref={ref4} className={`flex flex-wrap items-center justify-center px-8 py-24 transition-opacity ease-in duration-1000 ${isVisible4 ? "opacity-100" : "opacity-0"}`}>
 
         <h2 className="w-full text-4xl font-bold text-center py-4a lg:text-2xl">Two ways to Donate</h2>
 
@@ -135,7 +153,7 @@ const App = () => {
 
       </section>
 
-      <section id="contactUs" className="flex flex-col items-center justify-around py-12 text-white bg-gradient-to-r from-indigo-500 to-sky-500">
+      <section id="contactUs" ref={ref5} className={`flex flex-col items-center justify-around py-12 text-white bg-gradient-to-r from-indigo-500 to-sky-500 transition-opacity ease-in duration-1000 ${isVisible5 ? "opacity-100" : "opacity-0"}`}>
         <h3 className="py-4 pb-2 text-4xl font-bold text-center">Contact Us</h3>
 
         <p className="w-3/4 text-xl text-center lg:text-2xl">The Justin Fields Foundation is dedicated to carrying out its mission to positively impact youth and the underserved community. While we are grateful for all of Justin's amazing fans and those who support the JFF, we are unable to accept requests for autographs, interviews, personal appearances, auction items or game tickets.  Please refrain from personal solicitations. Thank you for your understanding and continued support as we strive to create a brighter future for our youth.</p>
