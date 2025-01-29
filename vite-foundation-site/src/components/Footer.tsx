@@ -8,7 +8,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col items-center justify-center w-full py-2">
                 <p className="w-3/4 text-sm font-bold text-center">Disclaimer Statement:
-                    The Justin Fields Foundation is a Delaware limited liability corporation operating through a fiscal sponsorship with Players Philanthropy Fund, a Maryland charitable trust recognized by IRS as a tax-exempt public charity under Section 501(c)(3) of the Internal Revenue Code (Federal Tax ID: 27-6601178). Contributions to The Justin Fields Foundation qualify as tax-deductible to the fullest extent of the law.</p>
+                    The Justin Fields Foundation is a Delaware limited liability corporation operating through a fiscal sponsorship with Players Philanthropy Fund, Inc. a Texas nonprofit corporation recognized by IRS as a tax-exempt public charity under Section 501(c)(3) of the Internal Revenue Code (Federal Tax ID: 27-6601178, ppf.org/pp). Contributions to The Justin Fields Foundation qualify as tax-deductible to the fullest extent of the law.</p>
             </div>
         </footer>
     )
